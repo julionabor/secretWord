@@ -71,7 +71,7 @@ function App() {
 			guessedLetters.includes(normalizedLetter) ||
 			wrongLetters.includes(normalizedLetter)
 		)
-			return;
+		return;
 		//push guessed letter or remove a guess
 		if (letters.includes(normalizedLetter)) {
 			setGuessedLetters((actualGuessedLetters) => [
